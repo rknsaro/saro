@@ -234,7 +234,35 @@ body {
     font-size: 1rem;
 }
 
+.back-home-btn {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: white;
+    color: #07254b;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
 
+.back-home-btn:hover {
+    background-color: #fecd2f;
+}
+
+.btn-login, .btn-signup {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #091B3D;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.btn-login:hover, .btn-signup:hover {
+    background-color: #FFD700;
+}
 
 /* Footer */
 footer {
