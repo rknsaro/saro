@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+  }
+  
+    /* Skip Button */
+    .skip {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        color: #002957;
+        text-decoration: none;
+        font-size: 18px;
+      }
+    
+      .skip:hover {
+        color: #FFD700;
+      }
+
+  /* Main Login Container */
+  .login-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    height: 600px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Left Side: Login Form */
+  .login-form {
+    flex: 1;
+    background-color: white;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .login-form h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #002957;
+  }
+  
+  .login-form p {
+    margin-bottom: 20px;
+    color: #002957;
+    font-size: 14px;
+  }
+  
+  .login-form label {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #002957;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .forgot-password {
+    /* margin-bottom: 20px; */
+    font-size: 14px;
+    color: #0052cc;
+    text-decoration: none;
+    align-self: flex-end;
+}
+  .btn {
+    padding: 10px 10px;
+    background-color: #002957;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .signup-text {
+    font-size: 12px;
+
+    color: #555;
+  }
+  
+  .signup-text a {
+    color: #002957;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Right Side: Profile Section */
+  .profile-section {
+    flex: 1;
+    background-image: url('/Assets/Starry\ Night\ BG.jpeg'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 40px;
+  }
+  
+  /* Profile Image */
+  .profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+  }
+  
+  /* Username and Tagline */
+  .username {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  .tagline {
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+    max-width: 300px;
+  }

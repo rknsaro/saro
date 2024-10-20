@@ -1,0 +1,297 @@
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    background-color: #091B3D;
+    color: #fff;
+    background-image: url('./Assets/Starry\ Night\ BG.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 30px;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+/* NAVBAR */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0B223F;
+}
+
+.navbar {
+    background-color: #0B223F;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #FFD700;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 10px; 
+    text-decoration: none; 
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #FFD700;
+}
+
+.active {
+    color: #FFD700;
+}
+
+.search-menu {
+    display: flex;
+    align-items: center;
+}
+
+.search-menu input {
+    border: none;
+    border-radius: 30px;
+    padding: 8px 15px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-btn, .menu-btn {
+    background: none;
+    border: none;
+    color: #FFF;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.search-btn:hover, .menu-btn:hover {
+    color: #FFD700;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.new-releases {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.new-releases h2 {
+    text-align: left;
+    font-size: 18px;
+    color: #f7d348;
+    margin-bottom: 20px;
+}
+
+.poem-card {
+    display: flex;
+    /* align-items: center; */
+    background-color: #002957;
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 350px;
+}
+
+.poem-card h3 {
+    color: #ffd700;
+    margin-top: 30px;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.poem-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+.poem-card button {
+    /* padding: 10px 10px; */
+    background-color: white;
+    color: #07254b;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+.poem-card button:hover {
+    background-color: #fecd2f; /* Hover effect with the same gold color */
+}
+
+
+.about {
+    background-color: #07254b;
+    border-radius: 12px;
+    width: 350px;
+    padding: 20px;
+    position: relative;
+    margin: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.about h4 {
+    font-size: 2rem;
+    color: #f7d348;
+}
+
+.about p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Left column: Poem section */
+.poem-feature {
+    display: flex;
+    background-color: #07254b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.poem-feature img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.poem-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.poem-text h2 {
+    font-size: 2rem;
+    color: #f7d348;
+    margin-bottom: 10px;
+}
+
+.poem-text p {
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #0B223F;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #FFD700;
+    color: #FFF;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+}
+
+.Logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #FFD700;
+}
+
+/* .active {
+    color: #FFD700;
+} */
+
+.footer-contacts {
+    text-align: right;
+}
+
+.footer-contacts p {
+    margin: 5px 0;
+}

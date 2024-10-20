@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+  }
+
+.signup {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    height: 100vh;
+}
+
+.left-side {
+    background: url('/Assets/Starry\ Night\ BG.jpeg') no-repeat center center/cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    text-align: center;
+    color: white;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.quote {
+    font-size: 18px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.right-side {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #002957;
+}
+
+.description {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #002957;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #002957;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 12px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    outline: none;
+    border-color: #002957;
+}
+
+.forgot-password {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #0052cc;
+    text-decoration: none;
+    align-self: flex-end;
+}
+
+.signup-button {
+    font-weight: bold;
+    padding: 12px;
+    background-color: #002957;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.signup-button:hover {
+    color: #FFD700;
+    background-color: #002957;
+}
+
+.login-redirect {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+}
+
+.login-redirect a {
+    font-weight: bold;
+    color: #002957;
+    text-decoration: none;
+}
+
+
+    .skip {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        color: #002957;
+        text-decoration: none;
+        font-size: 18px;
+        }
+
+        .skip:hover {
+        color: #FFD700;
+        }

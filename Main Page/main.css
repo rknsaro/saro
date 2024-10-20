@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/Assets/Starry\ Night\ BG.jpeg'); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  /* Main Container */
+  .container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    position: relative;
+  }
+  
+  /* Skip Button */
+  .skip {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .skip:hover {
+    color: #FFD700;
+  }
+  
+  /* Profile Image */
+  .profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Username */
+  .username {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  /* Tagline */
+  .tagline {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  /* Button Styles */
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #2c3e50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  
+  .btn.sign-in {
+    background-color:  #002957;
+  }
+  
+  .btn.sign-up {
+    background-color:  #ffffff;
+    color: #002957;
+  }
+  
+  /* Hover Effects */
+  .btn:hover {
+    color: #FFD700;
+  }
